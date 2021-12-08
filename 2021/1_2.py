@@ -1,5 +1,7 @@
-with open("data/input.txt") as f:
-    input = [int(x) for x in f]
+import aocd
+
+input = aocd.get_input(2021, 1)
+input = [int(x) for x in input]
 
 increment_count = 0
 
